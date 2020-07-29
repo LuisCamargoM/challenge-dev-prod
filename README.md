@@ -24,5 +24,5 @@ For quit:
 PRESS Ctrl+C
 ```
 
-After quit
+After quit,
 It will generate a json file with all results printed inline .
