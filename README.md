@@ -14,9 +14,15 @@ Then that you could test it running the following command:
 nc localhost 9999 | python streamer.py
 ```
 
-After that, will print a log stage process....
+After that, will print a log stage process.... 
+```bash
+- Streaming new Data....
+```
 
-For quit: PRESS Ctrl+C
+For quit: 
+``` bash
+PRESS Ctrl+C
+```
 
-
-It will generate a json file with all results
+After quit
+It will generate a json file with all results printed inline .
