@@ -12,3 +12,10 @@ RUN cargo build --release
 FROM alpine:3.12
 COPY --from=builder /str-source/target/release/str-source /bin/str-source
 CMD ["str-source"]
+
+FROM python:3
+RUN apt-get- update \
+    && apt-get install -y netcat \
+    && apt-get install -y python3 \
+    && apt-get clean
+    
